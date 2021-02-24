@@ -1,0 +1,72 @@
+.centerText {
+  text-align: center;
+}
+
+.inline-block {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.basic {
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  width: 100vw;
+  height: 100vh;
+}
+
+.gameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.blockContainer {
+  background-color: #61dafb;
+  border: black solid 3px;
+  border-radius: 9px;
+  width: 100px;
+  height: 100px;
+  margin-left: 3px;
+  margin-top: 3px;
+  outline: none;
+}
+
+.playerTwoCoin {
+  background-color: black;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  margin: 20px 0 0 20px;
+}
+
+.playerOneCoin {
+  background-color:red;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  margin: 20px 0 0 20px;
+}
+
+.choosePlayer {
+  background-color: lightgoldenrodyellow;
+  display: inline-block;
+  border-radius: 9px;
+  height: 100px;
+  margin-left: 5px;
+  width: 100px;
+}
+
+.resultContainer {
+  top: 0;
+  padding-top: 0px;
+  margin-bottom: 300px;
+  background-color: #282c34;
+  color: white;
+  width: 500px;
+  height: 500px;
+}
+
+.inline-block {
+  display: inline;
+}
