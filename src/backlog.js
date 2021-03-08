@@ -25,3 +25,38 @@
               <b>{"Player 2"}</b>
             </button>
           </div> */
+        //   do {
+        //     random = Math.ceil(Math.random()*curState.lastUpdatedBlock);
+        //   }while(newResult[random] !== 0)
+        // <div className={`resultContainer ${props.className}`}>
+        //     <h3>{"Results Dashboard"}</h3>
+        //     <div>
+        //         <table>
+        //             <thead>
+        //                 <tr>
+        //                     <td className="tableHeading">{"Player"}</td>
+        //                     <td></td>
+        //                     <td className="tableHeading">{"Number of Win's"}</td>
+        //                 </tr>
+        //             </thead>
+        //             <tbody>
+        //                 <tr>
+        //                     <td>
+        //                         <b>{props.firstPlayerName}</b>
+        //                         <div className="playerOneCoin"></div>
+        //                     </td>
+        //                     <td>{"   "}</td>
+        //                     <td>{props.firstPlayerCount || 0}</td>
+        //                 </tr>
+        //                 <tr>
+        //                     <td>
+        //                         <b>{props.secondPlayerName}</b>
+        //                         <div className="playerTwoCoin"></div>
+        //                     </td>
+        //                     <td>{"   "}</td>
+        //                     <td>{props.secondPlayerCount || 0}</td>
+        //                 </tr>
+        //             </tbody>
+        //         </table>
+        //     </div>
+        // </div>
