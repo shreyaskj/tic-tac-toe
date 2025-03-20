@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import Block from './Block';
+import Block from './components/Block';
 import Result from './Result';
 
 class App extends React.Component {
