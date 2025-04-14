@@ -1,3 +1,4 @@
+import React from 'react';
 
 export default function Block({ name, handler, input }) {
     return (

@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import "../../styles/App.css";
-import Block from "../../components/Block.js";
-import Result from "../../components/Result.js";
+import Block from "../../components/Block";
+import Result from "../../components/Result";
 
 /**
  * TicTacToe Game Main Component
@@ -39,7 +39,6 @@ function TicTacToe() {
 		"321",
 	]);
 	const isComputerPlaying = numberOfPlayers === 1;
-	console.log("success", success.current);
 
 	/* Enable Computer Play */
 	useEffect(() => {
@@ -78,7 +77,7 @@ function TicTacToe() {
 				}
 			}
 		}
-	}, [currentPlayer]);
+	}, [currentPlayer, isComputerPlaying, gameResult]);
 
 	/* Check for Game Over */
 	useEffect(() => {
